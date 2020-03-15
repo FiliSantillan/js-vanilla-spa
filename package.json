@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Fili Santillan",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "babel-loader": "^8.0.6",
