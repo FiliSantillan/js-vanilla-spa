@@ -1,10 +1,10 @@
 export const Header = () => {
-  const view = `
-    <div class="Header-main">
+    const view = `
+    <header class="Header-main">
       <div class="Header-logo">
         <h1>
           <a href="/">
-            JS Vanilla SPA
+            Rick & morty | <strong>Vanilla SPA</strong>
           </a>
         </h1>
       </div>
@@ -13,7 +13,7 @@ export const Header = () => {
           About
         </a>
       </div>
-    </div>
+    </header>
   `;
-  return view;
-}
+    return view;
+};
